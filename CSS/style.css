@@ -10,6 +10,22 @@
 .color-pink{
 color: rgb(253, 11, 148);    
 }
+.color-background{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn-primary-pink{
+    padding: 1vw 3vw;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+.btn-primary-sky{
+    padding: 1vw 3vw;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
 
 /* header nav section  */
 .nav-header-section, .title-nav-first, .title-nav-second>ul, .sub-ul{
@@ -27,6 +43,7 @@ color: rgb(253, 11, 148);
 .title-nav-second li a{
     text-decoration: none;
 }
+
 .fontyoutube{
     color: red;
     font-size: 2rem;
@@ -39,3 +56,22 @@ color: rgb(253, 11, 148);
     background: rgba(11, 2, 35, 0.10);
 }
 /* nav header work end */
+
+/* main header section CSS work start*/
+.main-header{
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.main-header-section{
+    width: 100%;
+    
+}
+.main-header-section-first{
+    padding-left: 15vw;
+}
+.main-header-section img{
+    width: 80%;
+}
+/* main header section CSS work end*/
