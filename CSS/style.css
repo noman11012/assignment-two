@@ -152,10 +152,12 @@ color: rgb(253, 11, 148);
 
 /* playing circle section start */
  .playing-circle-sectionLine1{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-items: center;    
     align-items: center;
+    
     gap: 20px;
     margin-bottom: 3vw;
     
@@ -215,7 +217,7 @@ color: rgb(253, 11, 148);
 
 
 
-/* responsive design work */
+/* responsive design work  for small device*/
 @media screen and (max-width:576px) {
     .nav-header-section, .title-nav-first, .title-nav-second>ul {
         display: grid;
@@ -270,6 +272,84 @@ color: rgb(253, 11, 148);
     .playing-circle-sectionLine1{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: .5vw;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 3vw;
+        
+    }
+
+    
+.circle{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+ /* .....................................    */
+ .footer-caption img{
+    width: 50%;
+}
+ .footer-caption{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+}
+
+/* responsive for medium device */
+
+/* responsive design work for tablet*/
+@media screen and (min-width:576px) and (max-width:980px) {
+    
+    .sub-ul{
+        margin-left: 1px;
+        margin-top: 5px;
+        padding: 5px 8px;
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+    }
+/* 
+    .main-header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;       
+    } */
+    .main-header-section{
+        padding-left: -20vw;
+    }
+/* .............................. */
+     .image-game-main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .image-game{
+        width: 90%;   
+    }
+/* ........................... */
+    .playing-game-online{
+        margin-top: 3vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .playing-game-online-section{
+        width: 100%;
+       
+    }
+    .playing-game-online-section2{
+        width: 50%;
+    }
+    .playing-game-online-section img{
+        width: 50%;
+       
+    }
+    /* ................. */
+    .playing-circle-sectionLine1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         align-items: center;
         justify-content: center;
@@ -277,6 +357,9 @@ color: rgb(253, 11, 148);
         
     }
  /* .....................................    */
+ .footer-caption img{
+    width: 50%;
+}
  .footer-caption{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
