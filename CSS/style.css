@@ -1,0 +1,41 @@
+/* shared item */
+.body{
+    
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-font{
+    color: #3C354F;
+    font-size: 1rem;
+}
+.color-pink{
+color: rgb(253, 11, 148);    
+}
+
+/* header nav section  */
+.nav-header-section, .title-nav-first, .title-nav-second>ul, .sub-ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-header-section img{
+    width: 30%;
+}
+.title-nav-second li{
+    list-style: none;
+    padding-left: 1.5vw;
+}
+.title-nav-second li a{
+    text-decoration: none;
+}
+.fontyoutube{
+    color: red;
+    font-size: 2rem;
+}
+
+.sub-ul{
+    margin-left: 10px;
+    padding: 17px 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+/* nav header work end */
